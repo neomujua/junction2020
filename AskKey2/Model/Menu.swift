@@ -1,7 +1,7 @@
 import Foundation
 import Firebase
 
-struct TeamItem {
+struct Menu {
     let ref: DatabaseReference?
     let key: String
     let title: String
