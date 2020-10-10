@@ -1,0 +1,6 @@
+framework module Pods_AskKey2Tests {
+  umbrella header "Pods-AskKey2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
