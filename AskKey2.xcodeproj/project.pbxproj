@@ -10,6 +10,7 @@
 		2EC7724B199A249709443789 /* Pods_AskKey2_AskKey2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5ED1EDE4C40A93F141CA76 /* Pods_AskKey2_AskKey2UITests.framework */; };
 		74706BFF4F7A101907153F3B /* Pods_AskKey2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0F7AD3C1979B11A9ACEF99 /* Pods_AskKey2.framework */; };
 		AFC4A66F1A17FA5C611E051A /* Pods_AskKey2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEE194781D8DAAF9879E15D /* Pods_AskKey2Tests.framework */; };
+		DA45EA6B2532B30600034DA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45EA6A2532B30600034DA8 /* DetailViewController.swift */; };
 		DA6AC8782532294600907B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AC8772532294600907B74 /* AppDelegate.swift */; };
 		DA6AC87A2532294600907B74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AC8792532294600907B74 /* SceneDelegate.swift */; };
 		DA6AC87C2532294600907B74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AC87B2532294600907B74 /* ViewController.swift */; };
@@ -20,6 +21,10 @@
 		DA6AC89A2532294900907B74 /* AskKey2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AC8992532294900907B74 /* AskKey2UITests.swift */; };
 		DA87A6CC25322B48000CE6E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA87A6CB25322B48000CE6E8 /* GoogleService-Info.plist */; };
 		DA87A6E525322C26000CE6E8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87A6E425322C26000CE6E8 /* Menu.swift */; };
+		DA87A6F025323279000CE6E8 /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87A6EF25323279000CE6E8 /* MenuListViewController.swift */; };
+		DA87A703253243E5000CE6E8 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87A702253243E5000CE6E8 /* MenuTableViewCell.swift */; };
+		DA87A70F25328DC3000CE6E8 /* MenuListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87A70D25328DC3000CE6E8 /* MenuListCell.swift */; };
+		DA87A71025328DC3000CE6E8 /* MenuListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA87A70E25328DC3000CE6E8 /* MenuListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,7 @@
 		84FD1E12D22C67A6998A4D64 /* Pods-AskKey2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskKey2.debug.xcconfig"; path = "Target Support Files/Pods-AskKey2/Pods-AskKey2.debug.xcconfig"; sourceTree = "<group>"; };
 		8AEE194781D8DAAF9879E15D /* Pods_AskKey2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskKey2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0F7AD3C1979B11A9ACEF99 /* Pods_AskKey2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskKey2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA45EA6A2532B30600034DA8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DA6AC8742532294600907B74 /* AskKey2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskKey2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6AC8772532294600907B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6AC8792532294600907B74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 		DA6AC89B2532294900907B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA87A6CB25322B48000CE6E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA87A6E425322C26000CE6E8 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		DA87A6EF25323279000CE6E8 /* MenuListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
+		DA87A702253243E5000CE6E8 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		DA87A70D25328DC3000CE6E8 /* MenuListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListCell.swift; sourceTree = "<group>"; };
+		DA87A70E25328DC3000CE6E8 /* MenuListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuListCell.xib; sourceTree = "<group>"; };
 		EEB4FE9A72B4405551B45DC3 /* Pods-AskKey2-AskKey2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskKey2-AskKey2UITests.release.xcconfig"; path = "Target Support Files/Pods-AskKey2-AskKey2UITests/Pods-AskKey2-AskKey2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		FA5ED1EDE4C40A93F141CA76 /* Pods_AskKey2_AskKey2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskKey2_AskKey2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC03AD90F57170F3BB9CA0C /* Pods-AskKey2-AskKey2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskKey2-AskKey2UITests.debug.xcconfig"; path = "Target Support Files/Pods-AskKey2-AskKey2UITests/Pods-AskKey2-AskKey2UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,12 +153,11 @@
 		DA6AC8762532294600907B74 /* AskKey2 */ = {
 			isa = PBXGroup;
 			children = (
+				DA87A6F42532432B000CE6E8 /* Custom */,
 				DA87A6E325322C0D000CE6E8 /* Screens */,
 				DA87A6E225322C06000CE6E8 /* Model */,
 				DA6AC8772532294600907B74 /* AppDelegate.swift */,
 				DA6AC8792532294600907B74 /* SceneDelegate.swift */,
-				DA6AC87B2532294600907B74 /* ViewController.swift */,
-				DA6AC87D2532294600907B74 /* Main.storyboard */,
 				DA6AC8802532294800907B74 /* Assets.xcassets */,
 				DA6AC8822532294800907B74 /* LaunchScreen.storyboard */,
 				DA6AC8852532294800907B74 /* Info.plist */,
@@ -186,8 +195,22 @@
 		DA87A6E325322C0D000CE6E8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				DA6AC87D2532294600907B74 /* Main.storyboard */,
+				DA6AC87B2532294600907B74 /* ViewController.swift */,
+				DA87A6EF25323279000CE6E8 /* MenuListViewController.swift */,
+				DA45EA6A2532B30600034DA8 /* DetailViewController.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		DA87A6F42532432B000CE6E8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				DA87A702253243E5000CE6E8 /* MenuTableViewCell.swift */,
+				DA87A70D25328DC3000CE6E8 /* MenuListCell.swift */,
+				DA87A70E25328DC3000CE6E8 /* MenuListCell.xib */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6AC8842532294800907B74 /* LaunchScreen.storyboard in Resources */,
+				DA87A71025328DC3000CE6E8 /* MenuListCell.xib in Resources */,
 				DA87A6CC25322B48000CE6E8 /* GoogleService-Info.plist in Resources */,
 				DA6AC8812532294800907B74 /* Assets.xcassets in Resources */,
 				DA6AC87F2532294600907B74 /* Main.storyboard in Resources */,
@@ -430,9 +454,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6AC87C2532294600907B74 /* ViewController.swift in Sources */,
+				DA87A70F25328DC3000CE6E8 /* MenuListCell.swift in Sources */,
 				DA6AC8782532294600907B74 /* AppDelegate.swift in Sources */,
+				DA87A703253243E5000CE6E8 /* MenuTableViewCell.swift in Sources */,
+				DA87A6F025323279000CE6E8 /* MenuListViewController.swift in Sources */,
 				DA6AC87A2532294600907B74 /* SceneDelegate.swift in Sources */,
 				DA87A6E525322C26000CE6E8 /* Menu.swift in Sources */,
+				DA45EA6B2532B30600034DA8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -593,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
